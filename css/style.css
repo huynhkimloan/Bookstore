@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+/* CSS HEADER */
+header{
+    display: flex;
+}
+.col10{
+    width: 10%;
+}
+.col10 >img{
+    width: 100px;
+}
+.col30{
+    width: 30%;
+}
+div.ctrl >div{
+    display: flex;
+    border: 1px dotted blueviolet; 
+}
+input[type=text]{
+    text-align: right;
+}
+/* NAV */
+nav{
+    background-color: aquamarine;
+}
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.horizontal{
+    display: flex;
+}
+ul.menu >li{
+    min-width: 200px;
+    text-align: center;
+    border-right: 1px solid blueviolet;
+}
+ul.menu >li >a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+ul.menu >li >a:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* CSS SECTION */
+
+section.content{
+    display: flex;
+}
+div.left{
+    width: 20%;
+}
+div.right{
+    width: 80%;
+}
+ul.vertical >li{
+    text-align: left;
+}
+ul.vertical >li >a{
+    background: linear-gradient(green, aquamarine);
+}
+div.books{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.book{
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+}
+figure{
+    margin: 0;
+}
+figure >img{
+    width: 100%;
+}
